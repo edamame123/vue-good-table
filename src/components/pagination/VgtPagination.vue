@@ -41,7 +41,7 @@
         <span aria-hidden="true" class="chevron" v-bind:class="{ 'left': !rtl, 'right': rtl }"></span>
         <span>{{prevText}}</span>
       </button>
-
+<!--
       <button
         type="button"
         aria-controls="vgt-table"
@@ -51,6 +51,7 @@
         <span>{{nextText}}</span>
         <span aria-hidden="true" class="chevron" v-bind:class="{ 'right': !rtl, 'left': rtl }"></span>
       </button>
+ -->
     </div>
   </div>
 </template>
